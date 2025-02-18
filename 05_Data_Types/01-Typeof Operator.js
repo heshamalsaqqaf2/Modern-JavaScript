@@ -1,0 +1,10 @@
+'use strict';
+console.log(typeof 42);         // Outputs: "number"
+console.log(typeof "Hello");    // Outputs: "string"
+console.log(typeof true);       // Outputs: "boolean"
+console.log(typeof false);      // Outputs: "boolean"
+console.log(typeof "a" - 5);    // Outputs: "NaN"
+console.log(typeof "a" + 5);    // Outputs: "string"
+console.log(typeof undefined);  // Outputs: "undefined"
+console.log(typeof NaN);        // Outputs: "number"
+console.log(typeof null);       // Outputs: "object"
