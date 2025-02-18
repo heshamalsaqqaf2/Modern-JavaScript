@@ -76,3 +76,12 @@ function camelCaseExample() { }
 function getUserData() { }
 function validateInput() { }
 function updateDisplay() { }
+
+// TODO: Function Expressions and Arrow Functions
+let greet2 = (name) => {
+    console.log("Hello, " + name);
+};
+greet2("Arrow"); // Outputs: Hello, Arrow
+
+let square = x => x * x;
+console.log(square(4)); // Outputs: 16
