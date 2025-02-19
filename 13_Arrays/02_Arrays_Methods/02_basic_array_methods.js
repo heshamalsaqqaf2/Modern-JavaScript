@@ -1,7 +1,5 @@
 'use strict';
 
-// Basic Array Methods
-
 // TODO: Adding and Removing Elements from the End: push() and pop()
 let fruits = ['apple', 'banana'];
 
