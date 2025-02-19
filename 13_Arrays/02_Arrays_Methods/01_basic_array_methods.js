@@ -79,3 +79,29 @@ console.log(queue); // [1, 2, 3]
 let firstItem = queue.shift();
 console.log(firstItem); // 1
 console.log(queue);     // [2, 3]
+
+// TODO: Common Mistakes and Gotchas
+
+// ?Forgetting that these methods modify the original array:
+let numbers2 = [1, 2, 3];
+numbers.push(4);
+// If you didn't want to modify the original array, you should have made a copy first
+let newNumbers = [...numbers2]; // We'll learn about spread operator later but for now, just know that the spread operator is used to create copies of arrays.
+
+// ?Not checking for empty arrays:
+let empty = [];
+let item = empty.pop(); // Returns undefined, but might cause issues if you don't check
+if (empty.length > 0) {
+    item = empty.pop(); // Safer approach
+}
+
+// ?Using shift/unshift in performance-critical code:
+// This could be slow with large arrays
+for (let i = 0; i < 1000; i++) {
+    array.unshift(i);
+}
+// Better to push and reverse if needed
+for (let i = 0; i < 1000; i++) {
+    array.push(i);
+}
+array.reverse();
