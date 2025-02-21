@@ -1,8 +1,8 @@
 'use strict';
 
 // TODO: Property Shorthand
-let name = "John";
-let age = 30;
+let name = "Hesham";
+let age = 12;
 
 // Before ES6
 let user1 = {
