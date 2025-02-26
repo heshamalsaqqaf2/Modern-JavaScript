@@ -15,7 +15,5 @@
  *       3- Use event delegation for multiple similar elements
  *       4- Clean up event listeners when they're no longer needed
  *       5- Consider performance with heavy validation operations
- * 
- *   *In the next section, we'll look at common use cases and best practices,
- *   *for handling events in real-world applications.
+ *
 */
