@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Understanding JavaScript Event Listener Syntax</h1>
+
+    <div id="interactive-area">
+        <button id="clickButton" class="button">Click Me!</button>
+        <button id="removeButton" class="button">Remove Listener</button>
+        <div id="hoverBox" class="box">Mouse over me</div>
+        <input id="inputField" type="text" placeholder="Type something...">
+    </div>
+
+    <div id="displayArea">.</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
