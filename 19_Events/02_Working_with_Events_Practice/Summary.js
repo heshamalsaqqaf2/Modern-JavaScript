@@ -1,16 +1,17 @@
 /** 
  * @summary
- *   We've learned:
- *       1- What events are and how they work
- *       2- Different types of events we can listen for
- *       3- How to add and remove event listeners
- *       4- Different ways to write event handling functions
- *       5- The difference between event handlers and event listeners
+ *   ?we've covered:
+ *       1- The event object and its important properties
+ *       2- When and how to prevent default behaviors
+ *       3- Event bubbling and when to stop it
+ *       4- Working with input values in real-time
  * 
- *   *In the next section, we'll explore working with events in practice, 
- *      including the event object and event delegation patterns.
+ *   ?Key takeaways:
+ *       1- Always log the event object when learning about a new event type
+ *       2- Use preventDefault() when you want to handle events your own way
+ *       3- Use stopPropagation() sparingly and only when necessary
+ *       4- Remember to check event.target.value when working with inputs
  * 
- *   *Remember: while we've seen many different event types, we'll explore their specific properties
- *      and methods in more detail in the next section. 
- *      The goal here was to understand the fundamentals of how events work and how to handle them.
+ *   *In the next section, we'll look at common use cases and best practices,
+ *   *for handling events in real-world applications.
 */

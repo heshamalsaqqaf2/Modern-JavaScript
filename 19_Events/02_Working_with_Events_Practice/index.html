@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Events</title>
+    <style>
+        .container {
+            border: 2px solid #333;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .form-container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .item {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #999;
+        }
+
+        .delete-btn {
+            float: right;
+            color: red;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+
+        .custom-menu {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #999;
+            padding: 10px;
+        }
+
+        .modal {
+            padding: 20px;
+            background: white;
+            border: 1px solid #999;
+            margin: 20px;
+        }
+
+        .input-field {
+            margin: 10px 0;
+            padding: 5px;
+        }
+
+        .error {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="mainContainer">
+        <h2>Interactive Elements: Understanding the Event Object</h2>
+        <div class="item">
+            Item 1 <span class="delete-btn">×</span>
+        </div>
+        <div class="item">
+            Item 2 <span class="delete-btn">×</span>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form id="myForm">
+            <input type="text" id="nameInput" class="input-field" placeholder="Enter your name">
+            <div class="error" id="nameError">
+                Name is required
+            </div>
+
+            <input type="email" id="emailInput" class="input-field" placeholder="Enter your email">
+            <div class="error" id="emailError">
+                Valid email is required
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="modal" id="simpleModal">
+        <h3>Modal Content</h3>
+        <p>Click anywhere inside this modal.</p>
+        <p>Events will not propagate to parent elements.</p>
+    </div>
+
+    <div class="custom-menu" id="customMenu">
+        <div>Custom Menu Item 1</div>
+        <div>Custom Menu Item 2</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
