@@ -191,3 +191,23 @@ function validateForm() {
     // Enable/disable submit button based on form validity
     submitButton.disabled = !isValid;
 }
+
+// ? ______________________ Handling Form Submission ______________________
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    // In a real application, you would send the data to a server here
+    console.log('Form submitted with data:', {
+        username: formElements.username.input.value,
+        email: formElements.email.input.value,
+        password: formElements.password.input.value,
+        phone: formElements.phone.input.value || 'Not provided'
+    });
+    // Reset the form
+    form.reset();
+    // Reset validation classes
+    Object.values(formElements).forEach(element => {
+        element.input.classList.remove('valid', 'invalid');
+    });
+    // Disable submit button until form is valid again
+    submitButton.disabled = true;
+});
