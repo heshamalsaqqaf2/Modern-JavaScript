@@ -24,7 +24,7 @@ const patterns = {
     // [A-Za-z\\d]{8,} - must be at least 8 characters long
     password: /^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$/,
     // Phone pattern: exactly 10 digits
-    phone: /^\\d{10}$/
+    phone: /^\\d{10}$/,
 };
 
 // ? ______________________ Setting Up Our Form Elements ______________________
