@@ -53,9 +53,6 @@ function getCommentAuthor(commentId, callback) {
     }, 1500);
 }
 
-
-
-
 // Using our functions
 getUser(1, (user) => {
     getUserPosts(user.id, (posts) => {
