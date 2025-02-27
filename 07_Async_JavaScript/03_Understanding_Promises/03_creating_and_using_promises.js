@@ -28,7 +28,6 @@ function getUser(id) {
     });
 }
 
-
 getUser(1)
     .then((user) => {
         console.log('✅ Success Fetching Operation : ', user);
