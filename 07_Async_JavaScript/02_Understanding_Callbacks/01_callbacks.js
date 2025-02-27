@@ -17,14 +17,14 @@ function executeGreeting(callbackFunctions) {
     callbackFunctions('Hesham');
 }
 // Pass greet as a callback
-// executeGreeting(greet); // Outputs: Hello, Hesham!
+executeGreeting(greet); // Outputs: Hello, Hesham!
 
 // TODO: --------------- Moving to Asynchronous Callbacks ---------------
-// console.log('Starting...');
-// setTimeout(function () {
-//     console.log('2 seconds have passed!');
-// }, 2000);
-// console.log('Finishing...\n');
+console.log('Starting...');
+setTimeout(function () {
+    console.log('2 seconds have passed!');
+}, 2000);
+console.log('Finishing...\n');
 
 // ?Let's make this more practical with multiple steps:
 function makeBreakfast() {
