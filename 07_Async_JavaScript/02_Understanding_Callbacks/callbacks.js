@@ -24,4 +24,28 @@ console.log('Starting...');
 setTimeout(function () {
     console.log('2 seconds have passed!');
 }, 2000);
-console.log('Finishing...');
+console.log('Finishing...\n');
+
+// ?Let's make this more practical with multiple steps:
+function makeBreakfast() {
+    console.log('Starting breakfast preparation...');
+    setTimeout(() => {
+        console.log('1. Toasting bread...');
+        setTimeout(() => {
+            console.log('2. Bread is toasted! Adding butter...');
+            setTimeout(() => {
+                console.log('3. Butter added! Making eggs...');
+                setTimeout(() => {
+                    console.log('4. Eggs are ready! Breakfast is served!');
+                }, 2000);  // Cooking eggs
+            }, 1000);  // Adding butter
+        }, 2000);  // Toasting
+    }, 1000);  // Initial preparation
+}
+makeBreakfast();
+/**  
+ * @summary
+ *  1- Run this code and you'll see each step happen in sequence, 
+ *      but notice how the code is starting to nest deeply. 
+ *  2- This is a preview of what we call "callback hell" - we'll talk about that soon.
+*/
