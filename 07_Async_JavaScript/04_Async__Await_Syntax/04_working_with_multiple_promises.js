@@ -27,7 +27,7 @@ async function getDataParallel() {
         operation3()
     ]);
 
-    console.log('All results:', results);
+    console.log('All results parallel:', results);
     return results;
 }
 
@@ -36,16 +36,25 @@ function operation1() {
     return new Promise(resolve =>
         setTimeout(() => resolve('Result 1'), 1000));
 }
-
 function operation2() {
     return new Promise(resolve =>
         setTimeout(() => resolve('Result 2'), 1000));
 }
-
 function operation3() {
     return new Promise(resolve =>
         setTimeout(() => resolve('Result 3'), 1000));
 }
+
 // Run these functions separately to see the difference
 getDataSequentially();
 getDataParallel();
+
+/** 
+ * @Output
+ *  Starting parallel operations...
+ *  Starting sequential operations...
+        Result 1: Result 1
+        All results: [ 'Result 1', 'Result 2', 'Result 3' ]
+        Result 2: Result 2
+        Result 3: Result 3
+*/
