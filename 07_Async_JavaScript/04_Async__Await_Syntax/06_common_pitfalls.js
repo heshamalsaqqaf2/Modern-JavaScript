@@ -23,3 +23,15 @@ async function example() {
 }
 
 // TODO: -------------------------- Not handling errors: --------------------------
+// Wrong
+async function example() {
+    const data = await riskyOperation();  // Might throw error!
+}
+// Correct
+async function example() {
+    try {
+        const data = await riskyOperation();
+    } catch (error) {
+        console.error('Something went wrong:', error);
+    }
+}
