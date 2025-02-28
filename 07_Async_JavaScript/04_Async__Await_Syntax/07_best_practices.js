@@ -3,6 +3,7 @@
 // TODO: -------------------------- 1- Use descriptive function names --------------------------
 // Not clear
 async function getData() { }
+
 // Better
 async function fetchUserProfile() { }
 
