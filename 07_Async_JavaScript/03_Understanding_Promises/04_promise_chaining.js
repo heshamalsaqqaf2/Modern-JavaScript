@@ -4,7 +4,6 @@
  * One of the biggest advantages of Promises is that they can be chained.
  * This solves the callback hell problem:
 */
-
 function getUser(id) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -12,7 +11,6 @@ function getUser(id) {
         }, 1000);
     });
 }
-
 function getUserPosts(user) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
