@@ -12,14 +12,14 @@ This repository is a curated collection of modules covering the essential concep
 
 ## Contents
 
-1. [01 Intro Modern JS And Environment Setup](01_Intro_Modern_JS_And_Enviroment_Setup)
-2. [02 JavaScript Fundamentals](02_JavaScript_Fundamentals)
-3. [03 Common Data Structures Arrays](03_Common_Data_Structures_Arrays)
-4. [04 Common Data Structures Objects](04_Common_Data_Structures_Objects)
-5. [05 Understanding DOM DOM Manipulation](05_Understanding_DOM_DOM_Manipulation)
-6. [06 JavaScript Events](06_JavaScript_Events)
-7. [07 Async JavaScript](07_Async_JavaScript)
-8. [08 Object Oriented JavaScript](08_Object_Oriented_JavaScript)
+1. [Intro Modern JS And Environment Setup](01_Intro_Modern_JS_And_Enviroment_Setup)
+2. [JavaScript Fundamentals](02_JavaScript_Fundamentals)
+3. [Common Data Structures Arrays](03_Common_Data_Structures_Arrays)
+4. [Common Data Structures Objects](04_Common_Data_Structures_Objects)
+5. [Understanding DOM DOM Manipulation](05_Understanding_DOM_DOM_Manipulation)
+6. [JavaScript Events](06_JavaScript_Events)
+7. [Async JavaScript](07_Async_JavaScript)
+8. [Object Oriented JavaScript](08_Object_Oriented_JavaScript)
 
 ---
 
