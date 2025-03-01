@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://nodejs.org/">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyabpIWofFSuRCaFMchUGW2Vk3U_0yveDzA&s" alt="Node.js Logo" style="width: 500px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyabpIWofFSuRCaFMchUGW2Vk3U_0yveDzA&s" alt="Node.js Logo" style="width: 800px;">
   </a>
 </div>
 
