@@ -68,7 +68,3 @@ Master asynchronous programming in JavaScript with this section. Explore callbac
 Delve into object-oriented programming in JavaScript. This module covers key concepts such as classes, inheritance, encapsulation, and prototype-based programming to help you write maintainable and scalable code.
 
 ---
-
-Feel free to explore each module to deepen your understanding of modern JavaScript. Contributions, issues, and feedback are always welcome to enhance this resource!
-
-Happy Coding!
