@@ -1,10 +1,12 @@
 # Modern JavaScript Concepts Repository
 
 <div align="center">
-  <a href="https://nodejs.org/">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyabpIWofFSuRCaFMchUGW2Vk3U_0yveDzA&s" alt="Node.js Logo" style="width: 800px;">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyabpIWofFSuRCaFMchUGW2Vk3U_0yveDzA&s" alt="js Logo" style="width: 800px;">
   </a>
 </div>
+
+---
 
 This repository is a curated collection of modules covering the essential concepts of modern JavaScript. Whether you're a beginner or looking to brush up on advanced topics, you'll find practical examples and explanations to guide you through the JavaScript landscape.
 
