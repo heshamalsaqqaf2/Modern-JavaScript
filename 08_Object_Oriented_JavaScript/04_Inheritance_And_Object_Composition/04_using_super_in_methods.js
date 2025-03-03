@@ -39,4 +39,4 @@ rex2.makeSound();
 console.log(rex2.energy); // 95 (100 - 3 - 2)
 // Output:
 // "Rex makes a generic sound"
-// "Rex barks: Woof!"
+// "Rex barks: Woof!" 
