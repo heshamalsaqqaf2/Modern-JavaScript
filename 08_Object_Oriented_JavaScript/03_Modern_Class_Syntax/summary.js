@@ -1,5 +1,3 @@
-'use strict';
-
 /** 
  * @summary
  *     1- Classes provide a cleaner syntax for constructors and prototypes
