@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+
+        <form id="todoForm" class="todo-form">
+            <input type="text" id="todoInput" placeholder="What needs to be done?" required minlength="3">
+            <button type="submit" id="submitButton">Add Todo</button>
+        </form>
+
+        <!-- Add filters and counter -->
+        <div class="todo-controls">
+            <span id="todoCount">0 items left</span>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            <button id="clearCompleted" class="clear-btn">Clear Completed</button>
+        </div>
+
+        <div id="loadingMessage" class="message loading">Loading todos...</div>
+        <div id="errorMessage" class="message error"></div>
+        <div id="todoList"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
