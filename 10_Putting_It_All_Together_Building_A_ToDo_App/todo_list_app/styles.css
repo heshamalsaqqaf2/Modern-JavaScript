@@ -1,68 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
-
 .todo-item {
   border: 1px solid #ddd;
   padding: 10px;
   margin: 5px 0;
   border-radius: 4px;
 }
-
 .todo-item.completed {
   background-color: #e8fff0;
 }
-
-/* Add to existing CSS */
+/* ***************************************************************************** */
 .todo-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .todo-actions {
   display: flex;
   gap: 8px;
 }
-
 .btn {
   padding: 4px 8px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
-
 .btn-toggle {
   background-color: #4caf50;
   color: white;
 }
-
 .btn-delete {
   background-color: #f44336;
   color: white;
 }
-
 .completed .todo-text {
   text-decoration: line-through;
   color: #666;
 }
-
-/* Add to existing CSS */
+/* ***************************************************************************** */
 .todo-form {
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
 }
-
 .todo-form input {
   flex: 1;
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-
 .todo-form button {
   padding: 8px 16px;
   background-color: #4caf50;
@@ -71,48 +66,36 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
 .todo-form button:hover {
   background-color: #45a049;
 }
-
-/* Message styling */
+/* ***************************************************************************** */
 .message {
   padding: 10px;
   margin: 10px 0;
   border-radius: 4px;
   display: none;
 }
-
-/* Loading message styling (not the button spinner) */
 .message.loading {
   background-color: #e3f2fd;
   color: #1976d2;
   display: none;
 }
-
-/* Error message styling */
 .error {
   background-color: #ffebee;
   color: #c62828;
   display: none;
 }
-
-/* Button disabled state */
 #submitButton:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
   opacity: 0.7;
 }
-
-/* Button loading state */
 #submitButton.loading {
   background-color: #4caf50 !important;
   color: transparent;
   position: relative;
 }
-
-/* Spinner styling */
 #submitButton.loading::after {
   content: '';
   position: absolute;
@@ -126,62 +109,51 @@
   border-top-color: transparent;
   animation: spinner 0.6s linear infinite;
 }
-
-/* Spinner animation */
 @keyframes spinner {
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-
-/* Todo item transitions */
 .todo-item {
   transition: opacity 0.3s ease;
 }
-
 .todo-item.deleting {
   opacity: 0.5;
 }
-
-/* Add to existing CSS */
+/* ***************************************************************************** */
 .todo-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
 }
-
 .filters {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
-
 .filter-btn {
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    background: white;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
 .filter-btn.active {
-    background-color: #4CAF50;
-    color: white;
-    border-color: #4CAF50;
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
 }
-
 .clear-btn {
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    background: white;
-    border-radius: 4px;
-    cursor: pointer;
-    color: #f44336;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #f44336;
 }
-
 .clear-btn:hover {
-    background-color: #ffebee;
+  background-color: #ffebee;
 }
